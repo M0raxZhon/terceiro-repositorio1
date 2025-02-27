@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+:root{
+    --cor-principal: #132CA9;
+    --cor1: #ab0f97;
+    --cor2: #504ed2;
+    --cor3: #7e72fd;
+    --cor4: #d7c0ff;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Playwrite Italia Moderna';
+}
+
