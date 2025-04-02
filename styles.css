@@ -24,7 +24,7 @@ body{
     background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0. 1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     font-weight: bold;
   }
 
@@ -35,7 +35,7 @@ body{
   }
 
   .form-control{
-    background-color: var(--cor3);
+    background-color: #ab0f97;
   }
     
 
