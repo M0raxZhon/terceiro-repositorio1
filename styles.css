@@ -19,6 +19,10 @@ section {
   padding-bottom: 5rem;
 }
 
+header {
+  background-color: var(--preto);
+}
+
 .nav-link{
   color: var(--preto);
   font-size: 600;
