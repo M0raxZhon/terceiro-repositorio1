@@ -3,10 +3,19 @@ document.addEventListener('DOMContentLoaded', function(){
     const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
 
     botaoDeAcessibilidade.addEventListener('click', function (){
+        
         botaoDeAcessibilidade.classList.toggle('rotacao-botao')
         opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
 
         const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
         botaoDeAcessibilidade.setAttribute('aria-expanded'), !botaoSelecionado
     })
+    const aumentaFonteBotao = document.getElementById('aumenatar-Fonte');
+    const diminuiFonteBotao = document.getElementById('diminui-fonte');
+
+    aumentaFonteBotao.addEventListener('click', function()
+
+
+
+
 })
