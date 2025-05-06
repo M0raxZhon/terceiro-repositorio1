@@ -21,11 +21,11 @@ section {
 }
 
 header {
-  background-color: var(--cor5);
+  background-color: var(--preto);
 }
 
 .nav-link{
-  color: var(--preto);
+  color: var(--branco);
   font-size: 600;
 }
 
