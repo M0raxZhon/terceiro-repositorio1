@@ -111,68 +111,60 @@ header {
     background-color: #ab0f97;
   }
 
-  .menu-acessibilidade {
+.menu-acessibilidade {
     position: fixed;
     top: 2rem;
     right: 20px;
     z-index: 1000;
+}
 
-  }
-
-  .rotacao-botao {
+.rotacao-botao {
     transform: rotate(-90deg);
     transform-origin: right center;
-  }
+}
 
-  .opcoes-acessibilidade {
+.opcoes-acessibilidade {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .opcoes-acessibilidade button {
+.opcoes-acessibilidade button {
     margin-bottom: 5px;
-  }
+}
 
-  .apresenta-lista {
+.apresenta-lista {
     display: none;
-  }
-  
+}
 
-  .alto-contraste {
-    background-color: var(--branco);
-    color: var(--preto);
-  }
-
-  .alto-contraste header,
-  .alto-contraste footer,
-  .alto-contraste .formulario {
-    background-color: var(--branco);
-    color: var(--preto);
-  }
-
-  .alto-contraste .nav-link {
-    color: var(--cor4);
-  }
-
-  .alto-contraste .botao-incio,
-  .alto-contraste .formulario button,
-  .alto-contraste .btn-primary {
+.alto-contraste{
     background-color: var(--preto);
-    color: var(--cor-principal);
-  }
+    color: var(--branco);
+}
 
-  .alto-contraste #Corinthians {
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.alto-contraste .nav-link {
+    color: var(--laranja-claro);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--laranja-claro);
+    color: var(--preto);
+}
+
+.alto-contraste #tropicalia {
     background: none;
-  }
+}
 
-  .alto-contraste #galeria {
-    background-color: var(--branco);
-  }
-
-  .alto-contraste .fundo-galeria {
-    background: none;
-  }
-  
-    
+.alto-contraste #galeria {
+    background-color: var(--preto);
+}
 
