@@ -71,7 +71,7 @@ header {
   background-size: 180px 180px; /* Ajuste o tamanho conforme necessario*/
 }
 
-Corinthians .container {
+#Corinthians .container {
   display: flex;
   align-items: center;
   justify-content: center;
